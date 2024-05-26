@@ -1,0 +1,29 @@
+package data;
+
+import java.util.HashSet;
+
+public class Professor extends Person {
+    private HashSet<Person> courses;
+
+    public Professor(String dept, double age, String name) {
+        super(dept, age, name);
+        this.courses = new HashSet<Person>();
+    }
+
+    public void addCourse(Person course) {
+        courses.add(course);
+    }
+
+   public void deleteCourse(Person course) {
+	   courses.remove(course);
+   }
+   
+   public void displayCourses(Person course) {
+	   System.out.println(course);
+   }
+
+public Object displayCourse() {
+	// TODO Auto-generated method stub
+	return null;
+}
+}

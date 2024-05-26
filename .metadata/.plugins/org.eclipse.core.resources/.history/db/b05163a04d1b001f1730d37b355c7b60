@@ -1,0 +1,24 @@
+package data;
+
+public class App {
+    public static void main(String[] args) {
+        // Create a new Professor object
+        Professor professor = new Professor("Computer Science", 40, "John Doe");
+
+        // Create some Person objects to represent courses
+        Person course1 = new Person("CS101", 3, "Introduction to Computer Science");
+        Person course2 = new Person("CS202", 4, "Data Structures and Algorithms");
+        Person course3 = new Person("CS303", 3.5, "Database Management Systems");
+
+        // Add courses to the professor's list of courses
+        professor.addCourse(course1);
+        professor.addCourse(course2);
+        professor.addCourse(course3);
+
+        // Display the courses taught by the professor
+        System.out.println("Courses taught by Professor " + professor.getName() + ":");
+        for (Person course : professor.displayCourse) {
+            System.out.println(course);
+        }
+    }
+}

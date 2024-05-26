@@ -1,0 +1,13 @@
+package data;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Professor professor=new Professor("Dr. Rohan",31,"Mech");
+        professor.addCourse("DS");
+        professor.addCourse("ML");
+        professor.addCourse("Algorithms");
+        
+    }
+}

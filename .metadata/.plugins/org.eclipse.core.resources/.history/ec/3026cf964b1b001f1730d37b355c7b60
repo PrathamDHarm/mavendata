@@ -1,0 +1,8 @@
+package data;
+
+public class Person {
+	private String dept;
+	private double age;
+	private String name;
+	
+}

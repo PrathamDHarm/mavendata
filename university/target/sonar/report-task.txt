@@ -1,0 +1,6 @@
+projectKey=universitydata:university
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/universitydata:university
+ceTaskId=AY-0mO1L_AOd4kOuZ26E
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY-0mO1L_AOd4kOuZ26E

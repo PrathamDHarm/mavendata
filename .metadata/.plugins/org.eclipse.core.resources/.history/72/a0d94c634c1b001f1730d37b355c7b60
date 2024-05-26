@@ -1,0 +1,12 @@
+package data;
+
+import java.util.HashSet;
+
+public class Professor extends Person{
+	public Professor(String dept, double age, String name) {
+		super(dept, age, name);
+}
+
+	HashSet<String> courses=new HashSet<String>();
+	
+}
